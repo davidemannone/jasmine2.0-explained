@@ -1,7 +1,7 @@
 # jasmine2.0-explained
 Jasmine.js 2.0 and DelinitelyTyped that allows failure messages
 
-Many discussions and opinions for just introducing an explanation string when an expectation fails! 
+So many discussions and opinions for just introducing an explanation string when an expectation fails! 
 Ok, that test can be made perfecty whith just descripe-expect-it statements but what could happens of so terrible if you provide to set a fail message when someone needs it? When not necessary, just do not set it!
 
 I find this issue really usefull and error tracking is more efficient and less time consuming, despite the fact to set your test in the proper BDD manner.
@@ -29,5 +29,5 @@ Mi custom changes provide to you this now:
 12. I do not have testest the ANY macher nor many others. As soon I'll use they I will fix the possible bugs and make here the update. Or let me know with an example and I will do my tests.
 
 
-
+How to use it: just download jasmine.js and/or jasmine.d.ts and replace it in place of yours original ones.
 
