@@ -222,26 +222,26 @@ declare module jasmine {
         isNot?: void;
         message(): any;
 
-        toBe(expected: any): Matchers;   // CUSTO CHANGE: CHANGED RETURN TYPE FOR MATCHERS LINKING
-        toEqual(expected: any): Matchers; // CUSTO CHANGE: CHANGED RETURN TYPE FOR MATCHERS LINKING
-        toMatch(expected: any): Matchers; // CUSTO CHANGE: CHANGED RETURN TYPE FOR MATCHERS LINKING
-        toBeDefined(): Matchers;  // CUSTO CHANGE: CHANGED RETURN TYPE FOR MATCHERS LINKING
-        toBeUndefined(): Matchers;  // CUSTO CHANGE: CHANGED RETURN TYPE FOR MATCHERS LINKING
-        toBeNull(): Matchers; // CUSTO CHANGE: CHANGED RETURN TYPE FOR MATCHERS LINKING
-        toBeNaN(): Matchers;  // CUSTO CHANGE: CHANGED RETURN TYPE FOR MATCHERS LINKING
-        toBeTruthy(): Matchers; // CUSTO CHANGE: CHANGED RETURN TYPE FOR MATCHERS LINKING
-        toBeFalsy(): Matchers;  // CUSTO CHANGE: CHANGED RETURN TYPE FOR MATCHERS LINKING
-        toHaveBeenCalled(): Matchers; // CUSTO CHANGE: CHANGED RETURN TYPE FOR MATCHERS LINKING
-        toHaveBeenCalledWith(...params: any[]): Matchers; // CUSTO CHANGE: CHANGED RETURN TYPE FOR MATCHERS LINKING
-        toContain(expected: any): Matchers; // CUSTO CHANGE: CHANGED RETURN TYPE FOR MATCHERS LINKING
-        toBeLessThan(expected: any): Matchers;  // CUSTO CHANGE: CHANGED RETURN TYPE FOR MATCHERS LINKING
-        toBeGreaterThan(expected: any): Matchers; // CUSTO CHANGE: CHANGED RETURN TYPE FOR MATCHERS LINKING
-        toBeCloseTo(expected: any, precision: any): Matchers; // CUSTO CHANGE: CHANGED RETURN TYPE FOR MATCHERS LINKING
-        toContainHtml(expected: string): Matchers;  // CUSTO CHANGE: CHANGED RETURN TYPE FOR MATCHERS LINKING
-        toContainText(expected: string): Matchers;  // CUSTO CHANGE: CHANGED RETURN TYPE FOR MATCHERS LINKING
-        toThrow(expected?: any): Matchers;  // CUSTO CHANGE: CHANGED RETURN TYPE FOR MATCHERS LINKING
-        toThrowError(expected?: any): Matchers; // CUSTO CHANGE: CHANGED RETURN TYPE FOR MATCHERS LINKING
-        byFailReport(message: string): Matchers;  // CUSTO CHANGE: ADDED CUSTOM MESSAGE REPORT "MATCHER"
+        toBe(expected: any): Matchers;   // CUSTOM CHANGE: CHANGED RETURN TYPE FOR MATCHERS LINKING
+        toEqual(expected: any): Matchers; // CUSTOM CHANGE: CHANGED RETURN TYPE FOR MATCHERS LINKING
+        toMatch(expected: any): Matchers; // CUSTOM CHANGE: CHANGED RETURN TYPE FOR MATCHERS LINKING
+        toBeDefined(): Matchers;  // CUSTOM CHANGE: CHANGED RETURN TYPE FOR MATCHERS LINKING
+        toBeUndefined(): Matchers;  // CUSTOM CHANGE: CHANGED RETURN TYPE FOR MATCHERS LINKING
+        toBeNull(): Matchers; // CUSTOM CHANGE: CHANGED RETURN TYPE FOR MATCHERS LINKING
+        toBeNaN(): Matchers;  // CUSTOM CHANGE: CHANGED RETURN TYPE FOR MATCHERS LINKING
+        toBeTruthy(): Matchers; // CUSTOM CHANGE: CHANGED RETURN TYPE FOR MATCHERS LINKING
+        toBeFalsy(): Matchers;  // CUSTOM CHANGE: CHANGED RETURN TYPE FOR MATCHERS LINKING
+        toHaveBeenCalled(): Matchers; // CUSTOM CHANGE: CHANGED RETURN TYPE FOR MATCHERS LINKING
+        toHaveBeenCalledWith(...params: any[]): Matchers; // CUSTOM CHANGE: CHANGED RETURN TYPE FOR MATCHERS LINKING
+        toContain(expected: any): Matchers; // CUSTOM CHANGE: CHANGED RETURN TYPE FOR MATCHERS LINKING
+        toBeLessThan(expected: any): Matchers;  // CUSTOM CHANGE: CHANGED RETURN TYPE FOR MATCHERS LINKING
+        toBeGreaterThan(expected: any): Matchers; // CUSTOM CHANGE: CHANGED RETURN TYPE FOR MATCHERS LINKING
+        toBeCloseTo(expected: any, precision: any): Matchers; // CUSTOM CHANGE: CHANGED RETURN TYPE FOR MATCHERS LINKING
+        toContainHtml(expected: string): Matchers;  // CUSTOM CHANGE: CHANGED RETURN TYPE FOR MATCHERS LINKING
+        toContainText(expected: string): Matchers;  // CUSTOM CHANGE: CHANGED RETURN TYPE FOR MATCHERS LINKING
+        toThrow(expected?: any): Matchers;  // CUSTOM CHANGE: CHANGED RETURN TYPE FOR MATCHERS LINKING
+        toThrowError(expected?: any): Matchers; // CUSTOM CHANGE: CHANGED RETURN TYPE FOR MATCHERS LINKING
+        byFailReport(message: string): Matchers;  // CUSTOM CHANGE: ADDED CUSTOM MESSAGE REPORT "MATCHER"
         not: Matchers;
 
         Any: Any;
